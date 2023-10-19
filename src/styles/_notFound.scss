@@ -1,0 +1,36 @@
+.notFound{
+    min-height: 80vh;
+    min-width: 100wh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        color: #51267d;
+        margin-bottom: 10px;
+        span{
+            font-size: 20px;
+            border-left: 1px solid #000;
+            padding-left: 10px;
+        }
+    }
+    button{
+        color: #fff;
+        padding: 20px 35px!important;
+        font-size: 20px;
+        min-width: 64px;
+        box-sizing: border-box;
+        transition: transform .2s ease-in-out;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        line-height: 19px;
+        border-radius: 8px;
+        letter-spacing: normal;
+        text-transform: none;
+        background-color: #51267D;
+        border: none;
+        margin-top: 30px;
+    }
+}

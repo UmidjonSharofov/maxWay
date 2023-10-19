@@ -1,0 +1,26 @@
+.loader{
+    min-height: 100vh;
+    min-width: 100wh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: #fff;
+    z-index: 10000000!important;
+    width: 100%;
+    top: 0;;
+    .spinner-grow{
+        width: 5rem;
+        height: 5rem;
+        background-color:#51267d ;
+    }
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        color: #51267d;
+        margin-left: 10px;
+        font-weight: 700;
+        span{
+            display: block;
+        }
+    }
+}
